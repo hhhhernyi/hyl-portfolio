@@ -24,6 +24,15 @@ export const projects: Project[] = [
     tags:        ['React', 'Data Viz', 'Dashboard'],
   },
   {
+    id:          'volley-stats',
+    title:       'VolleyStat',
+    category:    'app',
+    platform:    'web',
+    description: 'A volleyball statistics dashboard covering 28 seasons of Italian SuperLega, with position-specific player comparison radars and a filterable leaderboard.',
+    url:         'https://volleyball-stats-dashboard.vercel.app/compare',
+    tags:        ['Next.js', 'Supabase', 'Chart.js', 'Data Viz'],
+  },
+  {
     id:          'cut-style-perm',
     title:       'Cut Style Perm',
     category:    'app',
